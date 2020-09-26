@@ -1,5 +1,48 @@
-.nav-menu{
+
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    background-color:black;
+
+
+    
+}
+
+.navbar{
     background-color: black;
-    margin: 10px;
-    height: 100px;
+    /* padding: 2%; */
+    margin: 2%;
+}
+.navbar-brand{
+    filter: brightness(0) invert(1);
+
+}
+.nav-link{
+    color: rgba(255, 255, 255, 0.863);
+}
+
+.p-title{
+    color: #ffffff8c;
+    font-size: 30px;
+    
+}
+
+h1{
+    color: #ffffff;
+    font-size: 80px;
+
+}
+
+.title-title{
+    font-family: 'Syne', sans-serif;
+ margin: 20px 20px;
+
+}
+
+.seyi-image{
+    width: 80%;
+    height: 120%;
+
+    
+
 }
