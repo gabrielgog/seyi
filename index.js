@@ -10,12 +10,17 @@ app.get("/", function(req, res){
 
 });
 
+app.get("/about.html", function(req, res){
+    res.sendFile(__dirname + "/about.html")
+})
 
+app.get("/projects.html", function(req, res){
+    res.sendFile(__dirname + "/projects.html")
+})
 
-
-
-
-
+app.get("/contact.html", function(req, res){
+    res.sendFile(__dirname + "/contact.html")
+})
 
 
 app.listen(3000, function(){

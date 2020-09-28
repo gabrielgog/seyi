@@ -2,15 +2,14 @@
 body{
     font-family: 'Karla', sans-serif;
     font-size: 20px;
-    background-color:black;
+    background-color: #1a1c20;
 
 
     
 }
 
 .navbar{
-    background-color: black;
-    /* padding: 2%; */
+   
     margin: 2%;
 }
 .navbar-brand{
@@ -32,6 +31,13 @@ h1{
     font-size: 80px;
 
 }
+@media(max-width:536px){
+    h1{
+        font-size: 53px;
+    }
+}
+
+
 
 .title-title{
     font-family: 'Syne', sans-serif;
@@ -40,9 +46,77 @@ h1{
 }
 
 .seyi-image{
-    width: 80%;
-    height: 120%;
+    width: 100%;
+
+    /* padding-bottom: 20%; */
 
     
 
+}
+
+.seyi-about{
+    width: 25%;
+    border: 5px solid #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 90%;
+    z-index: 3;
+}
+
+@media(max-width: 635px){
+    .seyi-about{
+        width: 70%;
+        z-index: 1;
+    }
+   
+
+}
+
+.about-text{
+    color: #0000008c;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(240, 248, 255, 0.712);
+    padding: 2% 2%;
+}
+
+.button-style{
+    padding: 10px;
+    z-index: 3;
+
+}
+
+#contact{
+    padding: 3% 3%;
+
+    text-align: center;
+    color: #fff;
+
+}
+
+.contact-text{
+
+    font-size: 50px;
+
+
+}
+
+@media(max-width: 589;){
+
+    div.fas{
+        fa-3x;
+    }
+}
+.projects{
+    padding: 2% 2%;
+}
+
+.card{
+    margin: 5% 2%;
+}
+
+.icon{
+width: 90px;
+margin: 4% 2%;
 }
