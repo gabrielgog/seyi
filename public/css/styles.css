@@ -54,14 +54,12 @@ h1{
 
 }
 
-.seyi-about{
-    width: 25%;
-    border: 5px solid #ffffff;
+.floar-left{
+    float: left;
+    border: 5px solid white;
+    margin: 1rem;
+    border-style: outset;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 90%;
-    z-index: 3;
 }
 
 @media(max-width: 635px){
